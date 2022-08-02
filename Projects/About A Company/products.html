@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+    Author:Zachary Humbard
+    Date:06/19/2022
+    Assignment: About A Company
+    Filename:products.html
+    -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Saber Forge</title>
+  <link href="styles.css" rel="stylesheet" />
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+  </style>
+
+<body>
+  <div class="row">
+    <div class="logo-row">
+      <img src="logo.png" alt="logo" class="logo">
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html"> Home</a> </li>
+      <li><a href="products.html"> Products</a></li>
+    </ul>
+  </nav>
+
+  <h2>Which lightsaber calls to you?</h2>
+  <p>For a even better saber experience add Neopixel:$99.00</p>
+  <br>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="master_obi.png" alt="saber1" style="width:100%">
+        <div class="container">
+          <h2>The Master</h2>
+          <p class="title">Hello There!</p>
+          <p>This is a replica of Master Jedi Obi-Wan Kenobi's iconic
+            lightsaber.A weapon from a more civilized age.</p>
+          <p>Price: $200.00</p>
+          <p><button class="button">Buy</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="lord_vader.png" alt="saber2" style="width:100%">
+        <div class="container">
+          <h2>Dark Lord</h2>
+          <p class="title">The Dark Side</p>
+          <p>The Dark-Side flows through you with this awesome replica
+            of Darth Vader's lightsaber.Rule the galaxy!!</p>
+          <p>Price:$250.00</p>
+          <p><button class="button">Buy</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="the_apprentice.png" alt="saber3" style="width:100%">
+        <div class="container">
+          <h2>The Apprentice</h2>
+          <p class="title">This is where the fun begins!</p>
+          <p>This is where the fun begins! Wield Anakin Skywalkers lightsaber and bring
+            peace to the galaxy and the Empire!</p>
+          <p>Price:$200.00</p>
+          <p><button class="button">Buy</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="my_apprentice.jpg" alt="saber4" style="width:100%">
+        <div class="container">
+          <h2>My Padawan</h2>
+          <p class="title">Your Training Begins</p>
+          <p>Begin your jedi training with the Apprentice lightsaber.</p>
+          <p>Price: $100.00</p>
+          <p><button class="button">Buy</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="the_learner.jpg" alt="saber5" style="width:100%">
+        <div class="container">
+          <h2>The Knight</h2>
+          <p class="title">Join the fight</p>
+          <p>Defend the galaxy with the Learner lightsaber.</p>
+          <p>Price:$150.00</p>
+          <p><button class="button">Buy</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="fallen_jedi.webp" alt="saber6" style="width:100%">
+        <div class="container">
+          <h2>Fallen Jedi</h2>
+          <p class="title">Anger consumes</p>
+          <p>Let the anger flow through you with the Fallen Jedi lightsaber.</p>
+          <p>Price:$100.00</p>
+          <p><button class="button">Buy</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    Garunteed Better than a Stick!!
+    Level-Up Sabers copy&;2022 Zach humbard 417-555-5555
+  </footer>
+</body>
+
+
+</html>
