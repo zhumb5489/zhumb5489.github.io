@@ -7,7 +7,7 @@ Filename:styles.css
 .column1{
   text-align: center;
 font-size: 1.5em;
-background-color: ivory;
+background-color: white;
 }
 .image-fluid{
 align-self: center;
@@ -15,13 +15,12 @@ align-self: center;
 body{
   background-color: #E0d2b4;
 }
-
 h2{
-text-align: 
+  text-align: center;
 }
+
 .contact{
   background-color:white;
-  box-shadow: 5 5 5 10px;
 }
 footer{
   background-color: white;
