@@ -1,0 +1,32 @@
+/*
+Author:Zachary Humbard
+Date:08/01/2022
+Assignment:Final
+Filename:styles.css
+*/
+.column1{
+  text-align: center;
+font-size: 1.5em;
+background-color: ivory;
+}
+.image-fluid{
+align-self: center;
+}
+body{
+  background-color: #E0d2b4;
+}
+
+h2{
+text-align: center;
+}
+.contact{
+  background-color:white;
+  box-shadow: 5 5 5 10px;
+}
+footer{
+  background-color: white;
+  text-align: center;
+}
+.projects{
+  background-color: white;
+}
