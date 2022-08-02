@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!--
+  Author: Zachary Humbard
+    Date: 06/26/2022
+    Assignment: Fit for Fun Fitness
+    Filename: info.html
+    -->
+  <meta charset="utf-8">
+  <title>Request Info</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <div class="row">
+    <div class="logo-row">
+      <img src="logo.jpg" alt="logo" class="logo" />
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">About Us</a> </li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="info.html">Get Info</a></li>
+
+    </ul>
+  </nav>
+  <h1>Request Info</h1>
+
+  <form method="get" action="thankyou-1.html">
+    <fieldset id="custInfo">
+      <legend>Information</legend>
+      <h2>Anything marked with a * required:</h2>
+      <div class="formRow">
+        <label for="fname">First Name*</label>
+        <input name="fName" id="fname" type="text" placeholder="first name" required />
+        <label for="lname">Last Name*</label>
+        <input name="lName" id="lname" type="text" placeholder="last name" required />
+      </div>
+      <div class="formRow">
+        <label for="mail">E-mail</label>
+        <input name="Email" id="mail" type="email" />
+        <label for="phone">Phone Number</label>
+        <input name="Phone Number" id="phone" type="number"/>
+      </div>
+
+
+    </fieldset>
+    <fieldset>
+      <legend>Time of Day</legend>
+      <div class="formRow">
+        <label for="contact"> Best Way to Reach</label>
+      <select name="contact" id="contact">
+        <option value="Phone">Phone</option>
+        <option value="Email">Email</option>
+        <option value="Owl">Owl</option>
+        <option value="Carrier Pigeon">Carrier Pigeon</option>
+      </select>
+      </div>
+
+      <div class="formRow">
+        <div class="optGroup">
+          <label for="atime">AM</label>
+          <input name="Time of Day" id="atime" value="AM" type="radio" />
+          <label for="btime">PM</label>
+          <input name="Time of Day" id="btime" value="PM" type="radio" />
+
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Classes</legend>
+      <input type="checkbox" id="class1" name="class1" value="Cross Training">
+      <label for="class1"> Cross Training</label><br>
+      <input type="checkbox" id="class2" name="class2" value="Sprint">
+      <label for="class1">Sprint</label><br>
+      <input type="checkbox" id="class3" name="class3" value="BodyPump">
+      <label for="class3"> BodyPump</label><br>
+      <input type="checkbox" id="class4" name="class4" value="Advanced Cross Training">
+      <label for="class4"> Advanced Cross Training</label><br>
+      <input type="checkbox" id="class5" name="class5" value="Spin">
+      <label for="class5"> Spin</label><br>
+      <input type="checkbox" id="class6" name="class6" value="BodyCombat">
+      <label for="class6"> BodyCombat</label><br>
+      <input type="checkbox" id="class7" name="class7" value="Zumba">
+      <label for="class7"> Zumba</label><br>
+      <input type="checkbox" id="class8" name="class8" value="Step Interval">
+      <label for="class8">Step Interval</label><br>
+      <input type="checkbox" id="class9" name="class9" value="MixxedFit">
+      <label for="class9"> MixxedFit</label>
+    </fieldset>
+
+
+    <fieldset>
+
+      <legend>Any Questions?Drop Below</legend>
+      <label for="commBox">Info</label>
+      <textarea name="custExp" id="commBox"></textarea>
+    </fieldset>
+
+    <div id="buttons">
+      <input type="submit" value="Submit" />
+    </div>
+
+
+  </form>
+  <footer>
+
+    Fit for Fun Fitness &copy;2022 Zach Humbard 417-555-5555
+  </footer>
+</body>
+
+
+
+</html>

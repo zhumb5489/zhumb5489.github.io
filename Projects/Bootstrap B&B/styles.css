@@ -1,0 +1,43 @@
+.card{
+  display:inline-flex;
+}
+.title{
+margin: auto;
+text-align: center;
+background-color:white;
+font-size: 1.3em;
+color: #3b96b6;
+}
+
+
+body{
+  background-image: url(background.webp);
+}
+h2{
+  text-align: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.contact{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin: 10px;
+background-color:#3b96b6;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}

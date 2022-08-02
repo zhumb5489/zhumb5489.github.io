@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+/*Author:Zach Humbard
+Date :07/14/2022
+Assignment:cheech's
+Filename:styles.css
+*/
+html {
+  background-image: url(background.jpg);
+}
+.logo {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+}
+
+body{
+  border-spacing: 5px;
+  padding: 5px;
+  background-color: #CAB181;
+}
+nav>ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content:space-between;
+  background-color: black;
+  padding:20px;
+  width:90%;
+
+}
+nav a{
+  text-decoration:none;
+  color: #CAB181;
+  border-style: ridge;
+}
+.parent2{
+  display: flex;
+  flex-direction: row;
+}
+.form{
+  width:50%;
+  text-align: left;
+  border-style: solid;
+}
+.child3{
+  width: 50%;
+  border-style: solid;
+  text-align: center;
+  font-style: italic;
+
+}
+
+h1{
+  text-align: center;
+}
+.parent1{
+display: flex;
+  text-align: center;
+}
+.child1{
+  width:50%;
+  font-family: sans-serif;
+}
+.child2{
+  width:50%;
+  font-family: sans-serif;
+
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: inherit;
+
+}
+
+
+
+@media screen and (max-width:578px) {
+.parent1{
+display: block;
+}
+.child1,.child2{
+  width: 100%;
+}
+nav>ul{
+  display: block;
+  text-align: center;
+}
+.parent2{
+  display: block;
+}
+.form{
+  width: 100%;
+}
+.child3{
+  width: 100%;
+}
+}
