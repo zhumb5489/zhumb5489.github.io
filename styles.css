@@ -4,28 +4,33 @@ Date:08/01/2022
 Assignment:Final
 Filename:styles.css
 */
-.column1{
+.column1 {
   text-align: center;
-font-size: 1.5em;
-background-color: white;
+  font-size: 1.5em;
+  background-color: white;
 }
-.image-fluid{
-align-self: center;
+
+.image-fluid {
+  align-self: center;
 }
-body{
+
+body {
   background-color: #E0d2b4;
 }
-h2{
+
+h2 {
   text-align: center;
 }
 
-.contact{
-  background-color:white;
+.contact {
+  background-color: white;
 }
-footer{
+
+footer {
   background-color: white;
   text-align: center;
 }
-.projects{
+
+.projects {
   background-color: white;
 }
